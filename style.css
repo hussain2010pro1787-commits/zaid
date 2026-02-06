@@ -11,14 +11,17 @@
     direction: rtl;
     -webkit-tap-highlight-color: transparent;
 }
+div:active {
+    background-color: initial;
+}
 a,
 a:visited,
 a:hover,
 a:active {
   color: inherit;
   text-decoration: none;
+  background-color: transparent;
 }
-
 .center {
     margin-right: auto;
     margin-left: auto;
@@ -255,6 +258,8 @@ header ul li:hover {
     height: 100vh;
     flex-wrap: wrap;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .third .center .deg {
     border: 1px solid rgb(211, 211, 211);
@@ -506,7 +511,6 @@ header ul li:hover {
 }
 @media (max-width:900px) {
     header ul {
-        display: none;
         height: 300px;
         width: 200px;
         background-image: url("imgs/list.jpg");
@@ -543,7 +547,7 @@ header ul li:hover {
     .third .center .deg {
         width: 100%;
         height: calc((100% / 4) - 20px);
-        margin: 10px 10px;
+        margin: 10px auto;
         padding: 0;
     }
     .third .center .deg i {
@@ -697,6 +701,4 @@ header ul li:hover {
 .first .center div img:hover {
     box-shadow: 15px 15px 1px rgb(95, 95, 95);
 }
-
 }
-
