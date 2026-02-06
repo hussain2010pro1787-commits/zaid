@@ -9,6 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     direction: rtl;
+    -webkit-tap-highlight-color: transparent;
 }
 a,
 a:visited,
@@ -698,3 +699,4 @@ header ul li:hover {
 }
 
 }
+
