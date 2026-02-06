@@ -505,6 +505,7 @@ header ul li:hover {
 }
 @media (max-width:900px) {
     header ul {
+        display: none;
         height: 300px;
         width: 200px;
         background-image: url("imgs/list.jpg");
@@ -695,4 +696,5 @@ header ul li:hover {
 .first .center div img:hover {
     box-shadow: 15px 15px 1px rgb(95, 95, 95);
 }
+
 }
