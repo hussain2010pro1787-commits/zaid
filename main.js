@@ -3,10 +3,10 @@ let nav = document.getElementById("nav");
 let isShowed = false;
 
 window.onload = (e) => {
-    if (window.innerWidth <= 900) {
-        nav.style.display = "none"
-    }
-}
+    if (isShowed === false && window.innerWidth <= 900) {
+        nav.style.display = "none";
+    };
+};
 
 document.onclick = (e) => {
     if (window.innerWidth <= 900) {
@@ -20,3 +20,4 @@ document.onclick = (e) => {
     }
 
 };
+
