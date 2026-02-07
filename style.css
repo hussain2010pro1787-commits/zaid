@@ -474,7 +474,7 @@ header ul li:hover {
         font-size: 20px;
     }
 }
-@media (min-width:900px) and (max-width:1200px) {
+@media (min-width:900px) and (max-width:1400px) {
     header ul {
         width: 70%;
     }
@@ -702,3 +702,4 @@ header ul li:hover {
     box-shadow: 15px 15px 1px rgb(95, 95, 95);
 }
 }
+
