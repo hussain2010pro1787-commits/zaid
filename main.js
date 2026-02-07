@@ -8,6 +8,7 @@ window.onload = (e) => {
     };
 };
 
+
 document.onclick = (e) => {
     if (window.innerWidth <= 900) {
         if (e.target === ul && !isShowed) {
@@ -18,6 +19,4 @@ document.onclick = (e) => {
         isShowed = false
     };
     }
-
 };
-
