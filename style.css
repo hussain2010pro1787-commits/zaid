@@ -124,7 +124,8 @@ header ul li:hover {
     display: flex;
     padding: 30px;
     flex-direction: row-reverse;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 .first {
     background-image: url("imgs/first.jpg");
@@ -209,7 +210,8 @@ header ul li:hover {
     background-color: transparent;
     display: flex;
     padding: 30px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 .second .center div {
     height: 100%;
@@ -252,10 +254,11 @@ header ul li:hover {
     position: relative;
 }
 .third .center {
+    min-height: 100vh;
+    height: auto;
     background-color: transparent;
     display: flex;
     padding: 30px;
-    height: 100vh;
     flex-wrap: wrap;
     padding: 50px;
     justify-content: center;
@@ -266,7 +269,8 @@ header ul li:hover {
     cursor: pointer;
     margin: auto auto;
     width: calc((100% / 3) - 20px);
-    height: calc((100% / 2) - 20px);
+    min-height: calc((100% / 2) + 350px);
+    height: auto;
     background-image: url("imgs/deg.png");
     background-size: cover;
     transition-duration: .3s;
@@ -318,7 +322,8 @@ header ul li:hover {
     background-color: transparent;
     display: flex;
     padding: 30px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     flex-wrap: wrap;
     padding: 50px;
 }
@@ -327,7 +332,8 @@ header ul li:hover {
     cursor: pointer;
     margin: auto auto;
     width: calc((100% / 3) - 20px);
-    height: calc((100% / 2) - 20px);
+    min-height: calc((100% / 2) + 350px);
+    height: auto;
     background-image: url("imgs/feat");
     background-size: cover;
     transition-duration: .3s;
@@ -380,7 +386,8 @@ header ul li:hover {
     background-color: transparent;
     display: flex;
     padding: 30px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     flex-wrap: wrap;
     padding: 50px;
 }
@@ -389,7 +396,8 @@ header ul li:hover {
     cursor: pointer;
     margin: auto auto;
     width: calc((100% / 3) - 20px);
-    height: calc((100% / 2) - 20px);
+    min-height: calc((100% / 2) + 350px);
+    height: auto;
     background-size: cover;
     transition-duration: .3s;
     display: flex;
@@ -474,7 +482,7 @@ header ul li:hover {
         font-size: 20px;
     }
 }
-@media (min-width:900px) and (max-width:1400px) {
+@media (min-width:900px) and (max-width:1200px) {
     header ul {
         width: 70%;
     }
@@ -702,4 +710,3 @@ header ul li:hover {
     box-shadow: 15px 15px 1px rgb(95, 95, 95);
 }
 }
-
